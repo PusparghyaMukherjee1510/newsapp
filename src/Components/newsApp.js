@@ -33,7 +33,7 @@ class NewsApp extends React.Component{
     render(){
         return(<div>
             <CountryList fetchNewData={this.fetchNewData}/>
-           <NewsList news={this.state.news}/>
+            <NewsList news={this.state.news}/>
          <p>
              <button className="btn">Next</button>
          </p>
